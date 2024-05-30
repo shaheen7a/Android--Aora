@@ -1,14 +1,12 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const profile = () => {
+const AuthLayout = () => {
   return (
     <View>
-      <Text>profile</Text>
+      <Text>AuthLayout</Text>
     </View>
   );
 };
 
-export default profile;
-
-const styles = StyleSheet.create({});
+export default AuthLayout;
