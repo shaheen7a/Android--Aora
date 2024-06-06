@@ -2,6 +2,8 @@ import { View, Text, ScrollView, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { images } from "../constants";
 import { StatusBar } from "expo-status-bar";
+import CustomButton from "../components/CustomButton";
+import { router } from "expo-router";
 export default function App() {
   return (
     <SafeAreaView className="bg-primary h-full">
@@ -41,6 +43,12 @@ export default function App() {
             Where Creativity Meets Innovation: Embark on a Journey of Limitless
             Exploration with Aora
           </Text>
+
+          <CustomButton
+          title="Continue with Email"
+          handlePress={() => router.push('/sign-in')}
+          containerStyles="w-full mt-7"
+          />
         </View>
       </ScrollView>
 
