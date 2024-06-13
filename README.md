@@ -1,10 +1,20 @@
 # Aora
-**React Native, Appwrite, Nativewind**
+
+![Android--Aora](./showcase/web-view01.png)
+
+
+  <div>
+    <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
+    <img src="https://img.shields.io/badge/NativeWind-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="nativewind" />
+  </div>
 
 ## Introduction 🤖🤖
+
 This app is built with React Native to deliver seamless user experiences. It incorporates captivating animations using Animatable and leverages the robust backend systems of Appwrite. The app aims to showcase impressive design and functionality, enabling the effortless sharing of AI-generated videos within the community.
 
 ## Tech Stack ⚙️⚙️
+
 - React Native
 - Expo
 - Nativewind
@@ -12,6 +22,7 @@ This app is built with React Native to deliver seamless user experiences. It inc
 - Appwrite
 
 ## Features 🔋🔋
+
 - **Onboarding Screen**: Engaging graphics and clear instructions welcome users to the app.
 - **Robust Authentication & Authorization System**: Secure email login safeguards user accounts.
 - **Dynamic Home Screen with Animated Flat List**: Smoothly animated flat list showcases the latest videos for seamless browsing.
