@@ -1,17 +1,17 @@
 # Aora
 **React Native, Appwrite, Nativewind**
 
-## Introduction
-Currently under development, this app is built with React Native to deliver seamless user experiences. It incorporates captivating animations using Animatable and leverages the robust backend systems of Appwrite. The app aims to showcase impressive design and functionality, enabling the effortless sharing of AI-generated videos within the community.
+## Introduction 🤖🤖
+This app is built with React Native to deliver seamless user experiences. It incorporates captivating animations using Animatable and leverages the robust backend systems of Appwrite. The app aims to showcase impressive design and functionality, enabling the effortless sharing of AI-generated videos within the community.
 
-## Tech Stack
+## Tech Stack ⚙️⚙️
 - React Native
 - Expo
 - Nativewind
 - Animatable
 - Appwrite
 
-## 🔋 Features
+## Features 🔋🔋
 - **Onboarding Screen**: Engaging graphics and clear instructions welcome users to the app.
 - **Robust Authentication & Authorization System**: Secure email login safeguards user accounts.
 - **Dynamic Home Screen with Animated Flat List**: Smoothly animated flat list showcases the latest videos for seamless browsing.
