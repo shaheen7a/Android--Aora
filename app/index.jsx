@@ -1,17 +1,21 @@
-import { View, Text, ScrollView, Image } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-import { images } from "../constants";
 import { StatusBar } from "expo-status-bar";
-import CustomButton from "../components/CustomButton";
 import { Redirect, router } from "expo-router";
+import { View, Text, Image, ScrollView } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+import { images } from "../constants";
+import { CustomButton, Loader } from "../components";
 import { useGlobalContext } from "../context/GlobalProvider";
-export default function App() {
 
-  const {isLoading, isLoggedIn} = useGlobalContext();
+const Welcome = () => {
+  const { loading, isLogged } = useGlobalContext();
 
-  if (!isLoading && !isLoggedIn) return <Redirect href="/home" />
+  if (!loading && isLogged) return <Redirect href="/home" />;
+
   return (
     <SafeAreaView className="bg-primary h-full">
+      <Loader isLoading={loading} />
+
       <ScrollView
         contentContainerStyle={{
           height: "100%",
@@ -50,9 +54,9 @@ export default function App() {
           </Text>
 
           <CustomButton
-          title="Continue with Email"
-          handlePress={() => router.push('/sign-in')}
-          containerStyles="w-full mt-7"
+            title="Continue with Email"
+            handlePress={() => router.push("/sign-in")}
+            containerStyles="w-full mt-7"
           />
         </View>
       </ScrollView>
@@ -60,4 +64,6 @@ export default function App() {
       <StatusBar backgroundColor="#161622" style="light" />
     </SafeAreaView>
   );
-}
+};
+
+export default Welcome;

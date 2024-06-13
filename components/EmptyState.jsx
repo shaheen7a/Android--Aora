@@ -1,8 +1,8 @@
-import { View, Text, Image } from "react-native";
-import React from "react";
-import { images } from "../constants";
-import CustomButton from "../components/CustomButton"
 import { router } from "expo-router";
+import { View, Text, Image } from "react-native";
+
+import { images } from "../constants";
+import CustomButton from "./CustomButton";
 
 const EmptyState = ({ title, subtitle }) => {
   return (
