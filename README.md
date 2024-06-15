@@ -17,6 +17,7 @@ This app is built with React Native to deliver seamless user experiences. It inc
 
 - React Native
 - Expo
+- Expo Router
 - Nativewind
 - Animatable
 - Appwrite
